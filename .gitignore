@@ -1,3 +1,6 @@
+# by nobody 202603
+package-lock.json
+
 # Logs
 logs
 *.log
@@ -80,7 +83,6 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 
 # Gatsby files
 .cache/

@@ -1,0 +1,35 @@
+{
+  "name": "setup-net45",
+  "version": "1.0.0",
+  "description": "setup .net framework 4.5",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrnobody/setup-net45.git"
+  },
+  "keywords": [
+    "setup",
+    "net45",
+    "actions"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/vrnobody/setup-net45/issues"
+  },
+  "homepage": "https://github.com/vrnobody/setup-net45#readme",
+  "dependencies": {
+    "@actions/core": "^3.0.0",
+    "@actions/exec": "^3.0.0",
+    "@actions/tool-cache": "^4.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "rollup": "^4.59.0"
+  }
+}
